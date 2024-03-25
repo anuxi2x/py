@@ -1,0 +1,14 @@
+numeric:
+x = 1 is int
+x = 0.1 is float
+x = 12e4 is complex
+
+numeric type conversion:
+y = float(x)
+y = int(x)
+y = complex(x)
+
+random numbers:
+import random - to import random module
+
+print(random.randrange(1, 10)) - start from 1, end in 10

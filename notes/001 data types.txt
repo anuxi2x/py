@@ -1,0 +1,12 @@
+built-in data types
+
+string - str
+numeric - int, float, complex
+sequence - list, tuple, range
+mapping - dict
+set type - set, frozenset
+boolean - bool (True or False)
+binary types - bytes, bytearray, memoryview
+none type - none
+
+to get the data type: type('value')
