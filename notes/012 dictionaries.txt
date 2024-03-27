@@ -1,0 +1,31 @@
+it's a data type in python, but it's also a data structure
+its a way to organize our data in a form that is has some different pros and cons and how we access it
+
+dictiornary = {
+    'a': 1,
+    'b': 2
+}
+
+dictionary is unordered key:value pair from 3.7 version dictionary is ordered
+
+to access key using value
+dictionary['a']
+
+dictiornary = {
+    'a': [1, 2, 3],
+    'b': 2
+}
+
+dictionary['a'][1] - will return 2
+
+Dictionary keys needs to be immutable - key cannot change
+Dictionary key has to be unique
+
+dict() built-in function which creates a new dicitonary
+example:
+user = dict(name = 'py') will creates a dicitonary {name = 'py'}
+
+Print the number of items in the dictionary:
+print(len(thisdict))
+
+print('basket' in user) returns True or False

@@ -1,0 +1,3 @@
+set is simply unordered collection of unique objects
+creates with curly brackets {}
+set item does not support indexing

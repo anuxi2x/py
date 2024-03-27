@@ -1,0 +1,11 @@
+basket = ['a', 'x', 'b', 'c', 'd', 'e', 'd']
+basket.reverse() will reverse the list
+basket[::-1] will reverse the list and returns new list
+
+list(range(0,100)) will creates a list from 0 to 100 (100 excluded)
+[1, 2, 3, ..., 99]
+
+sentence = '!'
+new_sentence = sentence.join(['hi', 'my', 'name', 'is', 'py'])
+will return hi!my!name!is!py
+join() returns new 

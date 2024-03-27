@@ -1,0 +1,3 @@
+None is a special type of data
+we can assign a variable None, maybe in future we will reassign it,
+but at this moment we want to have this variable 

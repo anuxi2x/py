@@ -1,0 +1,3 @@
+tuple are like lists, but we cannot modify them - immutable
+just like a list we can access by index []
+

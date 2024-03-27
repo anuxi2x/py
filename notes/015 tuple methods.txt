@@ -1,0 +1,8 @@
+tuple.count(value)
+The count() method returns the number of times a specified value appears in the tuple.
+value - Required. The item to search for
+
+tuple.index(value)
+The index() method finds the first occurrence of the specified value.
+The index() method raises an exception if the value is not found.
+value - Required. The item to search for

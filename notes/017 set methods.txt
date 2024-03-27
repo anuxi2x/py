@@ -1,0 +1,121 @@
+set.add(elmnt)
+The add() method adds an element to the set.
+If the element already exists, the add() method does not add the element.
+elmnt - Required. The element to add to the set
+
+
+set.clear()
+The clear() method removes all elements in a set.
+no parameter
+
+
+set.copy()
+The copy() method copies the set.
+no parameter
+
+
+set.difference(set1, set2 ... etc.)
+The difference() method returns a set that contains the difference between two sets.
+The returned set contains items that exist only in the first set, and not in both sets
+set1 - Required. The set(s) to check for differences in.
+set2 - Optional. The other set to search for equal items in. You can compare as many sets you like. Separate the sets with a comma.
+Shorter syntax: set - set1 - set2 .... etc.
+Shortcut key is -
+
+
+set.difference_update(set1, set2 ... etc.)
+The difference_update() method removes the items that exist in both sets.
+The difference_update() method is different from the difference() method, because the difference() method returns a new set, without the unwanted items, and the difference_update() method removes the unwanted items from the original set.
+set1 - Required. The set(s) to check for differences in.
+set2 - Optional. The other set to search for equal items in. You can compare as many sets you like. Separate the sets with a comma.
+Shorter syntax: set -= set1 | set2 ... etc.
+Separate the sets with | (a pipe operator).
+Shortcut key is -=
+
+
+set.discard(value)
+The discard() method removes the specified item from the set.
+This method is different from the remove() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.
+value - Required. The item to search for, and remove
+
+
+set.intersection(set1, set2 ... etc.)
+The intersection() method returns a set that contains the similarity between two or more sets.
+The returned set contains only items that exist in both sets, or in all sets if the comparison is done with more than two sets.
+set1 - Required. The set to search for equal items in
+set2 - Optional. The other set to search for equal items in. You can compare as many sets you like. Separate the sets with a comma
+Shorter syntax: set & set1 & set2 ... etc.
+Shortcut key is &
+
+
+set.intersection_update(set1, set2 ... etc)
+The intersection_update() method removes the items that is not present in both sets (or in all sets if the comparison is done between more than two sets).
+The intersection_update() method is different from the intersection() method, because the intersection() method returns a new set, without the unwanted items, and the intersection_update() method removes the unwanted items from the original set.
+set1 - Required. The set to search for equal items in
+set2 - Optional. The other set to search for equal items in. You can compare as many sets you like. Separate the sets with a comma
+Shorter syntax: set &= set1 & set2 ... etc.
+Shortcut key is =&
+
+
+set.isdisjoint(set)
+The isdisjoint() method returns True if none of the items are present in both sets, otherwise it returns False.
+set - Required. The set to search for equal items in
+
+
+set.issubset(set1)
+The issubset() method returns True if all items in the set exists in the specified set, otherwise it returns False.
+set1 - Required. The set to search for equal items in
+Shorter syntax: set <= set1
+Shortcut key is <=
+
+
+set.issuperset(set)
+The issuperset() method returns True if all items in the specified set exists in the original set, otherwise it returns False.
+set1 - Required. The set to search for equal items in
+Shorter syntax: set >= set1
+Shortcut key is >=
+
+
+set.pop()
+The pop() method removes a random item from the set and returns it.
+no parameter
+
+
+set.remove(item)
+The remove() method removes the specified element from the set.
+This method is different from the discard() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.
+item - Required. The item to search for, and remove
+
+
+set.symmetric_difference(set1)
+The symmetric_difference() method returns a set that contains all items from both set, but not the items that are present in both sets.
+The returned set contains a mix of items that are not present in both sets
+set1 - Required. The set to check for matches in
+Shorter syntax: set ^ set1
+Shortcut key is ^
+
+
+set.symmetric_difference_update(set1)
+The symmetric_difference_update() method updates the original set by removing items that are present in both sets, and inserting the other items.
+set1 - Required. The set to check for matches in
+Shorter syntax: set ^= set1
+Shortcut key is ^=
+
+
+set.union(set1, set2...)
+The union() method returns a set that contains all items from the original set, and all items from the specified set(s).
+It does not have to be a set, it can be any iterable object.
+If an item is present in more than one set, the result will contain only one appearance of this item.
+set1 - Required. The iterable to unify with
+set2 - Optional. The other iterable to unify with. You can compare as many iterables as you like. Separate each iterable with a comma
+Shorter syntax: set | set1 | set2 ...
+Shortcut key is |
+
+
+set.update(set1, set2 ...)
+The update() method updates the current set, by adding items from another set (or any other iterable).
+If an item is present in both sets, only one appearance of this item will be present in the updated set.
+set1 - Required. The iterable insert into the current set
+set2 - Optional. More iterables to insert into the current set. You can insert as many iterables as you like. Separate each iterable with a comma.
+Shorter syntax: set |= set1 |= set2 ...
+Shortcut key is |=
