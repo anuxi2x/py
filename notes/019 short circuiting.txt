@@ -1,0 +1,4 @@
+if condition or condition2:
+    print('something')
+
+if some of this conditions is true 'something' will be printed
