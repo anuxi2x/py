@@ -1,0 +1,12 @@
+range() is a special type of object, that returns an object that produces a sequence of integers from start to stop by step
+
+for number in range(0, 10):
+    print('something)
+
+output will be: 10 times 'something'
+
+if we dont need number variable we can replace it by underscore(_)
+
+well, range creates a special kind of object that we can iterate over
+
+range(start, stop, step)

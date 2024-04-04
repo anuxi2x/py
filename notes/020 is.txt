@@ -1,0 +1,4 @@
+is actually checks if the location in memory where this value is stored is the same
+
+for simple data types (int, float, string, booleans) they have the same place in memory
+for data structures (set, dict, list, tuple) every time creates a new place in memory

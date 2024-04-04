@@ -1,0 +1,15 @@
+enumerate() returns an enumerate object. Iterable must be another object that supports iteration
+in enumerate() we wrap around something that we want to enumerate
+its going to take an iterable object and gives us an index counter and the item at that index 
+
+for index, char in enumerate('Hello'):
+    print(index, char)
+
+output will be:
+0 H
+1 e
+2 l
+3 l
+4 o
+
+works with any iterables - string, list, tuple, set, dict
