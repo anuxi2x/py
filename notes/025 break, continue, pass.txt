@@ -1,0 +1,3 @@
+continue in loops will skip all lines after it and will start loop over again
+pass in loops is very rare to see, if we have some loop that does nothing, because at this moment we need to think about it, we can have pass in loop, and write the logic of loops when its done
+break in loops will exits the loopkugiugiugitgi8otvi8

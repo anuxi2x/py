@@ -1,0 +1,7 @@
+walrus operator :=
+
+walrus operator assigns values to variables as part of a larger expression
+in this example, the assignment expression helps avoid calling len() twice:
+
+if (n := len(a)) > 10:
+print(f'List is too long ({n} elements, expected <= 10)')

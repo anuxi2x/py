@@ -1,0 +1,14 @@
+docsting allows us to comment inside of our functions in a way that if another person will see it
+
+the way to create docstring:
+
+def test(a):
+    '''
+    Info: this function tests and prints param a
+    '''
+    print(a)
+
+
+to view docstring:
+help(test)
+print(test.__doc__)

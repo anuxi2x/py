@@ -1,0 +1,15 @@
+we have the *args which allow us to grab these positional arguments and just sum everything
+we have the **kwargs which allow us to grab anu number of keyword arguments and get a dictionary which comes as keyword arguments and the use them however we want
+in our case, we are looping over all the values, so items in keyword argument values, and the we goin to total all those items, have a total and add sum
+
+def super_func(*args, **kwargs):
+    total = 0
+    for items in kwargs.values():
+        total += items
+    return sum(args) + total
+
+*args is a tuple
+**kwargs is a dictionary
+
+Rule of parameters:
+actual params, **args, default parameters, **kwargs

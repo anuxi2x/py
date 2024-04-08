@@ -1,0 +1,49 @@
+scope literally meant what variables do i have access to ?
+
+scope rules:
+
+#1 starts with local
+#2 looking in parent local
+#3 looking in global
+#4 looking in built in functions
+
+global keyword says use the gloabal total if it exists in here, so that instead of haveing to create a new
+
+total = 0
+
+def count():
+    global total 
+    total += 1
+    return total
+
+count()
+count()
+print(count())
+
+we are able to detach the dependency or the effect that this count function had on the outside global
+
+total = 0
+
+def count(total):
+    total += 1
+    return total
+
+print(count(count(count(total))))
+
+
+nonlocal keyword is used to refer to parent local:
+it means that we want to use a variable that is not a global variable but is outside of the scope of my function
+
+def outer():
+    x = 'inner'
+    def inner():
+        nonlocal x
+        x = 'nonlocal'
+        print('inner:', x)
+
+    inner()
+    print('outer:', x).
+
+output will be:
+inner: nonlocal
+outer: nonlocal

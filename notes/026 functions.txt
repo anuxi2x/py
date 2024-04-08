@@ -1,0 +1,26 @@
+syntax
+
+def function_name():
+    'something that function does'
+
+function parameters give when function is defined
+arguments will be given when function is called/invoked
+
+keyword arguments allow us to not worry about position
+
+def say_hello(name, emoji):
+    print(f'hi {name} {emoji}')
+
+say_hello(emoji='some emoji', name='some name')
+
+
+Default parameters allow us to give right in here as were defining the function what we want as default in this
+
+def say_hello(name='Darth Vader', emoji='some other emoji'):
+    print(f'hi {name} {emoji}')
+
+if we run say_hello() without any parameters result will be:
+hi Darth Vader some other emoji
+it works with any of 1 argument that we give to this function
+
+usuallty function should do one thing really well or should return something
