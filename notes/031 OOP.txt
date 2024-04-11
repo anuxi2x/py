@@ -1,0 +1,26 @@
+class NameOfClass():
+    class_attribute = 'value'
+    def __init__(self, param1, param2):
+        self.param1 = param1
+        self.param2 = param2
+    
+    def method(self):
+        #code
+
+    @classmethod
+    def cls_method(cls, param1, param2):
+        #code
+    
+    @staticmethod
+    def stc_method(param1, param2):
+        #code
+
+
+OOP is a paradigm, a way for us to think about structing our code
+
+we can create a class with a class keyword using name convention, which is CamelCase
+
+class methods are instantiate by object that we create from this class, every instantiation object has access to class methods
+
+classmethod and staticmethod can be called on the class without actually instantiating it into and object
+

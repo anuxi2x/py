@@ -1,0 +1,1 @@
+encapsulation is the binding of data and functions that manipulate the data

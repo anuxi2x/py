@@ -1,0 +1,9 @@
+abstraction means hiding information or abstracting away information and giving access to only whats necessary
+so whatever the user or the programmer or the machine is interested in, thats the only thing we give access to, everything else we king of hide it, becaise users dont have to worry about it
+
+private and public variables is the base of abstraction
+
+there are not true privacy
+_something (single underscore) means that this should be a private variable and for others that you cant override this within using
+__something__ (double underscore) (dunder method) means that its a built in into python
+we should never write double underscore, its bad practice

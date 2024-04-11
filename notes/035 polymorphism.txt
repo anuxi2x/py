@@ -1,0 +1,9 @@
+poly means many
+morphism means from
+
+so polymorphism means many forms
+
+the idea of polymorphism refers to the way in which object classes can share the same method name
+but those method names can act differently based on what object calls them
+
+so two different objects share the same method names becasue of the object thats calling it, the output is different
