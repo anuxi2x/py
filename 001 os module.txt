@@ -1,0 +1,30 @@
+os.system('command') - runs command in system terminal
+exit codes 0 - good, 1 - command runs with error
+
+os.getcwd() - get current working directory, such as pwd
+
+os.chdir("/directory/path") - changes the current working directory
+
+os.listdir() - listing directory in array, by default it current working directory, we can pass path as argument
+    for i in os.listdir():
+        print(i)
+
+os.mknod('filename') - creates file in current working directory
+
+os.mkdir('directory_name') - creates directory in current working directory
+
+os.makedirs('dir1/dir2') - creates directories recursively
+
+os.rmdir('directory_name) - removes the directory
+
+os.removedirs('dir1/dir2') - removes directories recursively
+
+os.rename('old_filename', 'new_filename') - rename file
+
+os.environ - lists all environment variables
+
+os.environ.get('OLDPWD') - output will be value of OLDPWD
+
+os.getuid() - gets the id of user
+
+os.getgid() - gets the id of group
